@@ -6,7 +6,7 @@ import sklearn
 def tokenizer(text):
   return text.split()
 
-st.title("Predict review sentiment")
+st.title("Predict reviews' sentiment")
 
 review = st.text_input("Ingrese la reseña: ")
 review_array = np.array([review])
